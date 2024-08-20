@@ -1,0 +1,11 @@
+.cover {
+
+}
+
+.cover__container {
+    padding-inline: 1rem;
+}
+
+.cover__image {
+    inline-size: 100%;
+}

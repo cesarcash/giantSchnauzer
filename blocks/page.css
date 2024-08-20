@@ -1,0 +1,7 @@
+.page {
+    font-family: var(--baseFont);
+    margin: 0;
+    padding: 0;
+    background-color: var(--whiteGray);
+    line-height: 1.5rem;
+}

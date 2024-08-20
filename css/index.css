@@ -1,0 +1,25 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../vendor/icon.css');
+@import url('../blocks/body.css');
+@import url('../blocks/page.css');
+@import url('../blocks/header.css');
+@import url('../blocks/menu.css');
+@import url('../blocks/cover.css');
+@import url('../blocks/intro.css');
+@import url('../blocks/about.css');
+@import url('../blocks/subtitle.css');
+
+:root {
+    font-size: 16px;
+    --white: #fff;
+    --whiteGray: #f5f5f5;
+    --black: #212121;
+    --blue: #00a2ff;
+    --blueBold: #23265b;
+    --gray: #afafaf;
+    --baseFont: 'Monserrat Regular';
+    --fontBold: 'Monserrat Bold';
+    --fontItalic: 'Monserrat Italic';
+    --fontThin: 'Monserrat Thin';
+}

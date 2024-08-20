@@ -1,0 +1,32 @@
+.menu {
+    position: absolute;
+    display: block;
+    inset-inline-start: -100%;
+    inline-size: 100%;
+    z-index: 999;
+    background-color: var(--black);
+    transition: .3s ease-in all;
+}
+
+.menu-active {
+    inset-inline-start: 0;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__list-link {
+    text-decoration: none;
+    display: block;
+    padding: .7rem 0;
+    text-align: center;
+    color: var(--whiteGray);
+}
+
+.menu__list-link:hover {
+    background-color: var(--whiteGray);
+    color: var(--black);
+}
