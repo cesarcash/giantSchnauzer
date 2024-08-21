@@ -2,6 +2,7 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/icon.css');
 @import url('../blocks/body.css');
+@import url('../blocks/icon.css');
 @import url('../blocks/page.css');
 @import url('../blocks/header.css');
 @import url('../blocks/menu.css');
@@ -9,6 +10,9 @@
 @import url('../blocks/intro.css');
 @import url('../blocks/about.css');
 @import url('../blocks/subtitle.css');
+@import url('../blocks/statistics.css');
+@import url('../blocks/testimonials.css');
+@import url('../blocks/footer.css');
 
 :root {
     font-size: 16px;
@@ -18,6 +22,7 @@
     --blue: #00a2ff;
     --blueBold: #23265b;
     --gray: #afafaf;
+    --grayLight: #d8dce7;
     --baseFont: 'Monserrat Regular';
     --fontBold: 'Monserrat Bold';
     --fontItalic: 'Monserrat Italic';

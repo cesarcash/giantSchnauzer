@@ -3,5 +3,62 @@
 }
 
 .about__container {
+    padding: 1rem;
+}
+
+.about__container-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__item {
+    margin: auto;
+    max-inline-size: 320px;
+    background-color: var(--white);
+    border: 1px solid var(--grayLight);
     
+}
+
+.about__item-image {
+    display: block;
+    width: 100%;
+}
+
+.about__item-text {
+    text-align: center;
+    font-weight: bold;
+    color: var(--blueBold);
+    padding: .8rem 0;
+}
+
+@media screen and (min-width: 768px){
+
+    .about__container {
+        margin: auto;        
+    }
+
+    .about__container-item {
+        flex-direction: row;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .about__item {
+        max-inline-size: 280px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .about__container {
+        padding: 2rem 0;
+        inline-size: 768px;
+        max-inline-size: 768px;
+    }
+
+    .about__item {
+        max-inline-size: 220px;
+    }
 }

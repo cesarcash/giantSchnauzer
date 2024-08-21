@@ -3,9 +3,32 @@
 }
 
 .cover__container {
-    padding-inline: 1rem;
+    /* padding-inline: 1rem; */
 }
 
 .cover__image {
     inline-size: 100%;
+    display: block;
+}
+
+@media screen and (min-width: 420px){
+
+    .cover__container {
+        margin: auto;
+        padding: 0 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+    .cover__container {
+        padding: 2rem 0;
+    }
+
+    .cover__image {
+        inline-size: 768px;
+        margin: auto;
+    }
+
 }

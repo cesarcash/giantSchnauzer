@@ -4,4 +4,14 @@
     font-weight: bold;
     font-family: var(--fontBold);
     text-align: center;
+    margin: 0 0 1.5rem 0;
+}
+
+@media screen and (min-width: 768px){
+
+    .subtitle {
+        font-size: 2rem;
+        margin: 0 0 2rem 0;
+    }
+
 }
